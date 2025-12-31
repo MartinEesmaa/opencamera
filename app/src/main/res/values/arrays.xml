@@ -845,6 +845,7 @@
         <item>@string/preference_video_output_format_default</item>
         <item>@string/preference_video_output_format_mpeg4_h264</item>
         <item>@string/preference_video_output_format_mpeg4_hevc</item>
+        <item>@string/preference_video_output_format_mpeg4_apv</item>
         <item>@string/preference_video_output_format_3gpp</item>
         <item>@string/preference_video_output_format_webm</item>
     </string-array>
@@ -852,6 +853,7 @@
         <item>preference_video_output_format_default</item>
         <item>preference_video_output_format_mpeg4_h264</item>
         <item>preference_video_output_format_mpeg4_hevc</item>
+        <item>preference_video_output_format_mpeg4_apv</item>
         <item>preference_video_output_format_3gpp</item>
         <item>preference_video_output_format_webm</item>
     </string-array>

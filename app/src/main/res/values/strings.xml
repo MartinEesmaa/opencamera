@@ -716,6 +716,7 @@
     <string name="preference_video_output_format_default">Default</string>
     <string name="preference_video_output_format_mpeg4_h264">MPEG4 H264</string>
     <string name="preference_video_output_format_mpeg4_hevc">MPEG4 HEVC</string>
+    <string name="preference_video_output_format_mpeg4_apv">MPEG4 APV</string>
     <string name="preference_video_output_format_3gpp">3GPP</string>
     <string name="preference_video_output_format_webm">WebM (audio not supported)</string>
 

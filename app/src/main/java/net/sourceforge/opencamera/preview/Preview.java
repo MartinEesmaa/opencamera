@@ -3800,6 +3800,13 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
                 }
                 // else treat as default
                 break;
+            case "preference_video_output_format_mpeg4_apv":
+                if( Build.VERSION.SDK_INT >= Build.VERSION_CODES.BAKLAVA ) {
+                    video_profile.fileFormat = MediaRecorder.OutputFormat.MPEG_4;
+                    video_profile.videoCodec = MediaRecorder.VideoEncoder.APV;
+                    video_profile.audioCodec = MediaRecorder.AudioEncoder.AAC;
+                }
+                break;
             case "preference_video_output_format_3gpp":
                 video_profile.fileFormat = MediaRecorder.OutputFormat.THREE_GPP;
                 video_profile.fileExtension = "3gp";
